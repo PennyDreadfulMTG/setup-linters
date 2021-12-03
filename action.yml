@@ -1,0 +1,9 @@
+name: 'Setup Python Problem Matchers'
+description: 'Install problem matchers for mypy and flake8'
+author: 'silasary'
+branding:
+  icon: 'life-buoy'
+  color: 'yellow'
+runs:
+  using: 'node12'
+  main: 'main.js' 
