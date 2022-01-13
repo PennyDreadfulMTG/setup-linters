@@ -14,7 +14,20 @@
 					"message": 5
 				}
 			]
+		},
+		{
+			"owner": "mypy",
+			"severity": "error", // fallback
+			"pattern": [
+				{
+					"regexp": "^(.*?):(\\d+): (.+): ([\\s|\\w\"\\[,\\]-]*?)(\\[[\\w-]+\\])?$",
+					"file": 1,
+					"line": 2,
+					"column": 3,
+					"code": 5,
+					"message": 4
+				}
+			]
 		}
 	]
 }
- 
