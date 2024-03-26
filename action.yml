@@ -5,5 +5,5 @@ branding:
   icon: 'life-buoy'
   color: 'yellow'
 runs:
-  using: 'node16'
+  using: 'node20'
   main: 'main.js'
